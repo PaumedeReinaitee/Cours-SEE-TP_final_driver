@@ -82,6 +82,36 @@ https://docs.zephyrproject.org/latest/doxygen/html/structsensor__driver__api.htm
     - On configure CTRL_HUM, puis CONFIG, puis CTRL_MEAS en dernier, car la datasheet indique que CTRL_HUM n'est pris en compte qu'après une écriture dans CTRL_MEAS ;
     - À chaque étape on renvoie l'erreur si elle échoue.
 
+## Sortie obtenue
+====================================
+  MESURE BME280 - 00:02:20
+====================================
+
+Temperature : 29.810000 C
+Pression    : 102.135000 Pa
+Humidite    : 45.889000 %
+
+------------------------------------
+
+====================================
+  MESURE BME280 - 00:02:40
+====================================
+
+Temperature : 29.580000 C
+Pression    : 102.140000 Pa
+Humidite    : 46.559000 %
+
+------------------------------------
+
+====================================
+  MESURE BME280 - 00:03:00
+====================================
+
+Temperature : 29.430000 C
+Pression    : 102.138000 Pa
+Humidite    : 47.131000 %
+
+------------------------------------
 
 ## Difficultés rencontrées
 On a rencontré plusieurs difficultés pendant le TP.
